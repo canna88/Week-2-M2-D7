@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Search Pro: Find your dream job</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1> Job Search Pro </h1>
+    <h3> Find your dream job</h3>
+    <div>
+        <label for="myInput-job">Job:</label>
+        <input type="text" id="myInput-job" placeholder="Type a job...">
+        <label for="myInput-location">Location:</label>
+        <input type="text" id="myInput-location" placeholder="Type a place...">
+    </div>
+    <div class = "container-buttons">
+        <button id = "searchButton"> Search</button>
+        <button id = "eraseButton"> Reset</button>
+
+    </div>
+    
+    <label for="outputlist"> Message display</label>
+    <div class="container-result">
+        <label  id = "bar-result" for="outputlist"> Please enter a job and a location </label>
+        <ul id="outputList"></ul>
+    </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

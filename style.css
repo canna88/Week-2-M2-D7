@@ -1,0 +1,110 @@
+/* Stili per la pagina */
+
+/* TAG */
+body {display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+div {
+  width: 500px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: column;
+  background-color:aquamarine;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size:larger;
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+input[type=text]:focus{
+  outline: 1px solid black;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.2);    /* oranges! yey */
+}
+
+button:hover{
+  outline: 1px solid black;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.2);    /* oranges! yey */
+}
+
+
+button {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: large;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+/* CLASSI */
+
+.container-buttons {
+  display: flex;
+  flex-direction: row ;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  width: 450px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.container-result {
+  border-radius: 0;
+  margin: 0;
+  border: 1px solid black;
+  height: auto;
+
+}
+
+/* ID */
+
+#bar-result {
+    font-weight: bold;
+    font-size: medium;
+  }
+
+
+#myInput-job {
+  width: 400px;
+  height: 30px;
+}
+
+#myInput-location {
+  width: 400px; 
+  height: 30px;
+}
+
